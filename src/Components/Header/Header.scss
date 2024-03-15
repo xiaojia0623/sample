@@ -1,0 +1,22 @@
+@import '../../styles/every-styles';
+
+
+.header-part{
+    font-family: "Noto Sans TC", sans-serif;
+    background: #F8F9FA;
+    .header-logo{
+        width: 111px;
+        height: 40px;
+    }
+    .menu-list{
+        li{
+            font-size: 16px;
+            color:$dark;
+        }
+    }
+    .btn{
+        padding: 7px 32px;
+        border-radius: 19px;
+    }
+}
+

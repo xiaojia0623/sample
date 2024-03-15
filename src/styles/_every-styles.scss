@@ -1,0 +1,99 @@
+@import './custom-variables';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+.fontNoto{
+    font-family: "Noto Sans TC", sans-serif;
+}
+
+.w-75{
+    width:75%;
+}
+.w-85{
+    width:85%;
+}
+.w-90{
+    width:90%;
+}
+.w-724{
+    width: 724px;
+}
+
+.h-20{
+    height:20px;
+}
+
+.pd-6{
+    padding:6px 76px;
+}
+
+.p-8{
+    padding:8px 16px 8px 0px;
+}
+.p-81{
+    padding:8px 0px 8px 16px;
+}
+
+.p-12{
+    padding:0 12px;
+}
+
+.p-32{
+    padding: 32px 0px;
+}
+
+.bradius-8{
+    border-radius: 8px;
+}
+
+.line-32{
+    line-height: 32px;
+}
+.radius-4{
+    border-radius: 4px;
+}
+.radius-8{
+    border-radius: 8px;
+}
+.radius-19{
+    border-radius: 19px;
+}
+.radius-26{
+    border-radius: 26px;
+}
+
+.fs-12{
+    font-size: 12px;
+}
+
+.fs-14{
+    font-size: 14px;
+}
+
+.fs-16{
+    font-size: 16px;
+}
+
+.fs-18{
+    font-size: 18px;
+}
+
+.fs-20{
+    font-size: 20px;
+}
+
+.fs-24{
+    font-size: 24px;
+}
+
+.btn-hover-pink{
+    &:hover{
+        background: #FF785E;
+        color: #ffffff;
+    }
+}
+.btn-hover-primary{
+    &:hover{
+        background-color: $primary;
+        border:none;
+    }
+}

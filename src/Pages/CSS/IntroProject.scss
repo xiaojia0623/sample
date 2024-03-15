@@ -1,0 +1,43 @@
+@import '../../styles/every-styles';
+
+.introContent{
+    h2{
+        margin-top: 20px;
+        padding-left: 10px;
+        border-left: 4px solid $primary;
+    }
+    p{
+        color:#494846;
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .intro{
+        display: flex;
+        flex-direction: column;
+        .introContent{
+            .intro-content{
+                //width: 100%;
+                margin: 0 auto;
+                img, p{
+                    width: 100%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+// @media only screen and (max-width:1024px){
+     
+// }
+// @media only screen and (max-width:992px){
+     
+// }
+
+// @media only screen and (max-width:768px){
+    
+// }
+@media only screen and (max-width:520px){
+      
+}

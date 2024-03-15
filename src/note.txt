@@ -1,0 +1,4 @@
+Resources I used for this project:
+- React JS
+- Bootstrap 5
+- Google Fonts - Noto+Sans+TC Family Fonts

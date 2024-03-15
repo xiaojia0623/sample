@@ -1,0 +1,114 @@
+@import '../../styles/every-styles';
+
+
+.fb-icon, .youtube-icon{
+    width: 30px;
+    height: 30px;
+    color: #858377;
+}
+
+.contactCard{
+    width: 22rem;
+}
+
+.SideH2{
+    padding:6px 73px 5px 73px;
+}
+.secondCard{
+    width: 22rem;
+    img{
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .card-body{
+        .badgetag{
+            margin-bottom: 10px;
+            .badge-first{
+                border-radius: 4px;
+                color:$secondary;
+                padding: 4px 16px;
+                width: 107px;height: 22px;
+            }
+            .badge-right{
+                padding: 4px 16px;
+                //padding: 0;
+                margin: 0;
+                width: 90px;height: 22px;
+            }
+        }
+        .card-text{
+            line-height: 24px;
+            margin-bottom: 16px;
+        }
+        .card-btn{
+            color: $dark;
+            &:hover{
+                background: #FF785E;
+                color: white;
+            }
+        }
+    }
+}
+
+
+
+
+@media only screen and (max-width:1200px){
+    .contactCard{
+        width: 22rem;
+        margin: auto;
+        margin-top: 30px;
+        .card-body{
+            width: 100%;
+            margin: auto;
+        }
+    }
+    .secondCard{
+        width: 22rem;
+        margin: auto;
+        .card-body{
+            //width: 100%;
+            margin: auto;
+        }
+    }
+}
+
+
+@media only screen and (max-width:992px){
+    .contactCard, .secondCard{
+        width: 45rem;
+    }
+    .SideH2{
+        width: 100%;
+        margin: auto;
+        h2{
+            padding: 6px 0px;
+        }
+    }
+}
+
+@media only screen and (max-width:768px){
+    .contactCard, .secondCard{
+        width: 30rem;
+    }
+    .SideH2{
+        width: 90%;
+        margin: auto;
+        h2{
+            padding: 0;
+        }
+    }
+}
+
+@media only screen and (max-width:520px){
+    .contactCard, .secondCard{
+        width: 100%;
+    }
+    .SideH2{
+        width: 100%;
+        margin: auto;
+        h2{
+            padding: 6px 0px;
+        }
+    }
+}

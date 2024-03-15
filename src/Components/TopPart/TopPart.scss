@@ -1,0 +1,112 @@
+@import '../../styles/every-styles';
+
+
+.toppart{
+    padding-top: 47px;
+    background-color: #F8F9FA;
+    font-family: "Noto Sans TC", sans-serif;
+    h1{
+        margin: 7px 0 23px 0;
+        font-size: 32px;
+        color: #494846;
+        letter-spacing: 3px;
+    }
+    h6{
+        font-size: 12px;
+        .badge{
+            padding: 3px 16px;
+        }
+    }
+    .toppartContent{
+        .toppartMainImg{
+            img{
+                width: 641px;
+                height: 442px;
+            }
+        }
+        .progressBar{
+            width: 451px;
+            height: 16px;
+            color: #858377;   
+        }
+        .topMainContent{
+            margin: 19px 0 10px 0 ;
+        }
+    }
+    .btns{
+        button{
+            border-radius: 26px;
+        }
+        .btn-hover-pink{
+            &:hover{
+                background: #FF785E;
+                color: #ffffff;
+            }
+        }
+        .btn-hover-primary{
+            &:hover{
+                background-color: $primary;
+                border:none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:1200px){
+    .toppart{
+        .toppartContent{
+            display: flex;
+            flex-direction: row;
+        }
+    }  
+}
+
+@media only screen and (max-width:1024px){
+    .toppart{
+        .toppartContent{
+            display: flex;
+            flex-direction: column;
+        }
+    }  
+}
+
+@media only screen and (max-width:992px){
+    .toppart{
+        padding: 17px 0;
+    }  
+}
+
+@media only screen and (max-width:768px){
+    .toppart{
+        padding: 17px 12px 32px 12px;
+        .toppartContent{
+            .toppartMainImg{
+                object-fit: cover;
+                width: 100%;
+                margin-bottom: 30px;
+            }
+        }
+    }   
+}
+
+@media only screen and (max-width:520px){
+    .toppart{
+        //padding: 17px 12px 32px 12px;
+        .toppartContent{
+            .toppartMainImg{
+                img{
+                    object-fit: cover;
+                    width:351px;
+                    height: 238px;
+                    margin-bottom: 10px;
+                }
+            }
+            .toppart-info{
+                width: 100%;
+                .progressBar{
+                    width: 100%;
+                }
+            }
+        }
+    }   
+}

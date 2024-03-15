@@ -1,0 +1,77 @@
+@import '../../styles/every-styles';
+
+
+.container{
+    .Sponsorshi{
+        width: 100%;
+        position: relative;
+        margin-bottom: 30px;
+        display: flex;
+        .line-primary{
+            border: 2px solid $primary;
+            position: absolute;
+            top:50px;
+            width: 35%;
+        }
+        .line2-primary{
+            border: 2px solid $primary;
+            position: absolute;
+            top:50px;
+            right: 45px;
+            width: 35%;
+        }
+        .sponContent{
+            position: absolute;
+            left:40%;
+            img{
+                padding-left: 20px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    form{
+        width: 100%;
+        margin-top: 100px;
+        .btn{
+            display: block;
+            margin: auto;
+            padding: 12px 48px 11px 48px;
+        }
+    }
+}
+
+@media only screen and (max-width:992px){
+    form{
+        width: 10%;
+    }
+}
+
+
+
+@media only screen and (max-width:520px){
+    .container{
+        .Sponsorshi{
+            .line-primary{
+                top:50px;
+                width: 28%;
+            }
+            .line2-primary{
+                top:50px;
+                right: 45px;
+                width: 28%;
+            }
+            .sponContent{
+                position: absolute;
+                top:10px; left:28%;
+                margin: 0; padding: 0;
+                img{
+                    width: 43px;
+                    
+                }
+                h3{
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+}

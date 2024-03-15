@@ -1,0 +1,78 @@
+@import '../../styles/every-styles';
+
+@media only screen and (max-width:1200px){
+    .currpro{
+        display: flex;
+        flex-direction: column;
+        .leftCard {
+            margin: 0 auto;
+            form{
+                width: 100%;
+            }
+        }
+
+        .sideContent{
+            .contactCard{
+                width: 55rem;
+                margin: auto;
+                margin-top: 30px;
+                .card-body{
+                    width: 100%;
+                    margin: auto;
+                }
+            }
+            .secondCard{
+                width: 55rem;
+                margin: auto;
+                .card-body{
+                    //width: 100%;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:992px){
+    .currpro{
+        .leftCard {
+            width: 100%;
+        }
+
+        .sideContent{
+            .contactCard{
+                width: 45rem;
+            }
+            .secondCard{
+                width: 45rem;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:800px){
+    .currpro{
+        .sideContent{
+            .contactCard, .secondCard{
+                width: 35rem;
+            }
+            .SideH2{
+                width: 80%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:640px){
+    .currpro{
+        .sideContent{
+            .contactCard, .secondCard{
+                width: 100%;
+            }
+            .SideH2{
+                width: 100%;
+            }
+        }
+    }
+}
+
